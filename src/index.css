@@ -1,0 +1,109 @@
+html , body , #root{
+	margin:0;
+	padding: 0;
+	height: 100%;
+}
+
+.back{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-color: #1f555c;
+}	
+.clockMain{
+	color: white;
+	text-align: center;
+	position: relative;
+	margin-bottom: 50px;
+
+}
+
+.title{
+	font-size: 50px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.sessionBreak{
+	width: 500px;
+	height: 100px;
+	font-weight: bold;
+}
+
+.session-box{
+	width: 250px;
+	float: left;
+	height: 300px;
+	font-size: 25px;
+	margin-left: 70px;
+}
+
+.session-box .session_value{
+	padding-right: 10px;
+}
+
+.session-box button, .break-box button{
+	border:1px;
+	background-color: #1f555c;
+	color: white;
+	font-size: 20px;
+}
+
+.break-box{
+	font-size:25px;
+}
+
+.break-box .break-value{
+	margin:10px;
+}
+
+.clock-box{
+	width: 300px;
+	height: 150px;
+	border: 1px solid white;
+	margin:auto;
+	border-radius: 20px;
+	position: relative;
+}
+.clock-box .title{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	font-size: 30px;
+}
+.clock-value{
+	font-size: 35px;
+	position: absolute;
+	left: 50%;
+	bottom: 0px;
+	transform: translate(-50%,0);
+}
+.operator{
+	margin: auto;
+	margin-top: -30px;
+	float: left;
+	width: 600px;
+}
+.operator button{
+	display: inline-block;
+	margin:auto;
+	width: 80px;
+	height: 30px;
+	border: 1px solid white;
+	color: white;
+	background-color: #1f555c;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.footer{
+	text-align: center;
+	color: maroon;
+	font-family: monospace;
+	font-size:18px;
+	padding-top: 100px;
+}
+
+
