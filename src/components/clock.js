@@ -135,13 +135,12 @@ export default class Clock extends React.Component{
 
 	render(){
 		return(
-			<div>
 			<div className="clockMain">
 
 				<div className="title"> Pomodoro Clock </div>
 
-				<div className="sessionBreak">
-					<div className="session-box">
+				<div className="sessionBreak row">
+					<div className="session-box col">
 						<div className="session-label"> Session Length </div>
 						<div className="session-bottom">
 							<span className="sesion-decrement">
@@ -154,7 +153,7 @@ export default class Clock extends React.Component{
 						</div>
 					</div>
 
-					<div className="break-box">
+					<div className="break-box col">
 						<div className="break-label"> Break Length </div>
 						<span className="break-decrement">
 							<button name="break_value" onClick={this.handleDecrement}> &darr; </button>
@@ -198,12 +197,6 @@ export default class Clock extends React.Component{
 				<audio ref="audio_tag" src={timerEndSound} style={{display:'hidden'}}/>
 
 			</div>
-				<div className="footer">
-					<div> Designed and Created by: </div>
-					<div style={{color:'lightblue'}}> Andreas Sujono </div>
-				</div>
-			</div>
-
 		);
 	}
 }
