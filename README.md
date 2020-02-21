@@ -1,6 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pomodoro Clock
+========
+
+This is what Francesco Cirillo discovered during his first year of college. After realizing he was getting distracted and not using his study time efficiently, he grabbed a tomato-shaped kitchen timer, set it for 10 minutes, and tried working solidly for those 10 minutes without doing anything else. And it worked—forcing himself to focus before rewarding himself with a break helped him get more done, even with the break time.
+
+Influenced by that, he created what so called Pomodoro technique which is making use of time efficiently even for short period of time and do it consistently with a break in between
+
+you can see it live at [https://andreas-sujono.github.io/pomodoro-clock/](https://andreas-sujono.github.io/pomodoro-clock/)
+
+<img src='./Readme-asset/demo.png' alt="Pomodoro clock demo" width=500 />
+
+Dependencies
+--------
+
+- react
+- gh-pages (for deployment)
+
+Other library: Bootstrap
+
+Installation
+------------
+
+Clone this repository, and run:
+
+    yarn install
+
+   or
+   
+    npm install
+
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
