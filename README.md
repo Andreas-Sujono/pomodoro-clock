@@ -7,7 +7,7 @@ Influenced by that, he created what so called Pomodoro technique which is making
 
 you can see it live at [https://andreas-sujono.github.io/pomodoro-clock/](https://andreas-sujono.github.io/pomodoro-clock/)
 
-<img src='./Readme-asset/demo.png' alt="Pomodoro clock demo" width=500 />
+<img src='./Readme-asset/demo.png' alt="Pomodoro clock demo" width='100%' />
 
 Dependencies
 --------
